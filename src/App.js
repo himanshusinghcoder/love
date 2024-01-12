@@ -1,25 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  function yesClicked() {
+    alert('Yes! That\'s wonderful! Lets go out');
+    // You can add more actions here if needed
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div id="body">
+
+    <div class="container">
+    <div id="loveText">Vineha Will you come out with me?</div>
+      <div class="buttons">
+        <button id="yes-button" onClick={yesClicked}>Yes</button>
+        <button id="no-button" onClick={yesClicked}>No</button>
+      </div>
+    </div>
     </div>
   );
 }
 
 export default App;
+
