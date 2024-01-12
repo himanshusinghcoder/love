@@ -41,9 +41,11 @@ button {
 #no-button {
   background-color: #4d4dff; /* Adjust the color */
   color: white;
-  display: none;
 }
 
+#no-button:hover {
+  display: none;
+}
 
 
 #loveText {
